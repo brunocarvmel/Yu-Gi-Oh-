@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background-image: url('./img/seto.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.container img {
+  max-width: 30rem;
+  max-height: 30rem;
+  border-radius: 0.5rem;
+}
+
+.josue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40rem;
+}
+
+.card {
+  background-color: transparent;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 22rem;
+  height: 20rem;
+  /* box-shadow: 12px 8px 32px 12px rgba(126, 196, 243, 0.37); */
+  backdrop-filter: blur(4px);
+}
+
+.card h1 {
+  color: rgb(255, 255, 255);
+}
+
+.card input,
+button {
+  border: none;
+  border-radius: 0.3rem;
+  width: 14rem;
+  height: 3.5rem;
+  margin: 0.6rem;
+  background-color: rgb(204, 221, 236);
+}
+
+.card input {
+  padding-left: 0.8rem;
+  font-family: 'Cinzel', serif;
+  outline: none;
+}
+
+.card button {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  transition: all 250ms ease-in;
+}
+
+.card button:hover {
+  background-color: rgb(133, 185, 231);
+  cursor: pointer;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 100vh;
+}
